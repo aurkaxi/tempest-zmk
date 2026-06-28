@@ -140,8 +140,8 @@ layers:
   - {t: '9', h: ⎇}
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F23
+  - F24
   - {t: ., s: '>'}
   - {t: ',', s: <}
   - {t: ▽, type: trans}
