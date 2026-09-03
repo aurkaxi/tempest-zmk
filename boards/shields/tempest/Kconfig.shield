@@ -1,6 +1,9 @@
 # Copyright (c) 2020 Pete Johanson
 # SPDX-License-Identifier: MIT
 
+config SHIELD_TEMPEST_DONGLE
+    def_bool $(shields_list_contains,tempest_dongle)
+
 config SHIELD_TEMPEST_LEFT
     def_bool $(shields_list_contains,tempest_left)
 
